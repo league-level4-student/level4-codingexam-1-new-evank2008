@@ -1,4 +1,5 @@
 package scheduler;
+
 /*
  * Objective: Create a weekly scheduling application.
  * 
@@ -13,27 +14,18 @@ package scheduler;
  *   console and have the option to add events, view events or remove events by
  *   day.
  *   
- * - Each day's events should be sorted by chronological order(Hint: use the 
- *   properties of LinkedLists to place the event in the right spot rather than 
- *   try to sort it afterwards).
+ * - Each day's events should be sorted by chronological order.
  *  
  * - If the user tries to add an event on the same day and time as another event
  *   throw a SchedulingConflictException(created by you) that tells the user
  *   they tried to double book a time slot.
+ *   
+ * - Make sure any enums or classes you create have properly encapsulated member
+ *   variables.
  */
 public class Scheduler {
-   
-   
-   public static void main(String[] args) {
-       
-       LinkedList<String> list = new LinkedList<>();
-       
-       Node<String> node = new Node<>("Hello");
-    
-       list.add("Hello");
-       
-       System.out.println(list.getHead().getValue());
-       
-       
-}
+
+    public static void main(String[] args) {
+
+    }
 }
