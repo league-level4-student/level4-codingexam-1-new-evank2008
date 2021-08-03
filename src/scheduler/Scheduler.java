@@ -23,4 +23,17 @@ package scheduler;
  */
 public class Scheduler {
    
+   
+   public static void main(String[] args) {
+       
+       LinkedList<String> list = new LinkedList<>();
+       
+       Node<String> node = new Node<>("Hello");
+    
+       list.add("Hello");
+       
+       System.out.println(list.getHead().getValue());
+       
+       
+}
 }
