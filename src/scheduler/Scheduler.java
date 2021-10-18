@@ -7,7 +7,7 @@ package scheduler;
  * to accomplish the requirements below:
  * 
  * - You should use an array filled with enums for the days of the week and each
- *   enum should contain a LinkedList of events that include a time and what is 
+ *   enum should contain a LinkedList of events that includes a time and what is 
  *   happening at the event.
  * 
  * - The user should be able to to interact with your application through the
