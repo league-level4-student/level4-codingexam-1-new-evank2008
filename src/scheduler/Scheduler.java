@@ -26,6 +26,9 @@ package scheduler;
 public class Scheduler {
 
     public static void main(String[] args) {
-
+Event test = new Event();
+test.setFunction("zazzin");
+test.setTime(1400);
+System.out.println("Got a "+test.getFunction()+" party at "+test.getATime()+" sharp");
     }
 }
