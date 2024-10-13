@@ -26,6 +26,8 @@ public class LinkedList<T> {
         }
     }
 
+
+    
     public void remove(int position) {
 
         if (head == null) {

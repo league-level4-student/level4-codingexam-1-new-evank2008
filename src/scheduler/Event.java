@@ -1,8 +1,13 @@
 package scheduler;
 
 public class Event {
+	
 private String function;
 private int time;
+public Event(String function, int time) {
+	this.function=function;
+	this.time=time;
+}
 void setFunction(String function) {
 	this.function=function;
 }
