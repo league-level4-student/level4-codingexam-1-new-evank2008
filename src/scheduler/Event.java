@@ -30,10 +30,13 @@ int minute;
 minute = time-(time/100)*100;
 hour = time/100;
 String whichM;
-if(hour>12) {
+if(hour>11) {
 	whichM="P.M.";
+	if(hour!=12) {
 	hour-=12;
+	}
 } else {whichM="A.M.";}
+if(hour==0) {hour=12;}
 if(minute<10) {
 	return hour+":0"+minute+" "+whichM;
 }
